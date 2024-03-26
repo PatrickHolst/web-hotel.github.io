@@ -1,0 +1,65 @@
+body {
+  /* background: linear-gradient(to right, #2b78cf, #b2b5e0); */
+  background-image: url("/public/images/kyle-glenn-SrASYZZpyjw-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  font-family: "MuseoSans" !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "MuseoSans";
+  src: local("MuseoSans"), url(./fonts/MuseoSansCyrl-500.woff);
+}
+
+/* ////////////////////////////////////////////////////////////// */
+
+.nav {
+  padding: 0;
+}
+
+.home {
+  justify-content: center !important;
+  h1 {
+    font-size: 50px;
+    color: aliceblue;
+    text-shadow: 50cap;
+  }
+  margin-top: 6rem;
+  /* background-color: #fafafa9c;
+  padding: 20px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  box-shadow: 12px 12px 22px rgba(128, 128, 128, 0.8); */
+  .custom-btn {
+    background-color: #820358 !important;
+    width: 35%;
+  }
+}
+
+#widgetContainer {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 8rem;
+  background-color: #fafafa9c;
+  padding: 20px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  box-shadow: 12px 12px 22px rgba(128, 128, 128, 0.8);
+}
+
+/* @media screen and (max-width: 400px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .main-form {
+    width: 100%;
+  }
+} */
